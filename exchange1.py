@@ -58,6 +58,8 @@ class convertCode:
                 except:
                     print "Error inesperado"
 
+# esto se puede reestrucutrar como un Switch - case                    
+
             elif(comando == w.requestCode):
                 arduino.write("*C$")
                 time.sleep(1.7)
