@@ -121,7 +121,7 @@ def ejecutar(f):
    w.after(200,f)
 
       
-imagen = PhotoImage(file="/home/pi/logo.gif")
+#imagen = PhotoImage(file="/home/pi/logo.gif")
 lb = Label(w, image=imagen, width=280, height=180, anchor="c")
 lb.pack()
 lb.place(x=0, y=0)
